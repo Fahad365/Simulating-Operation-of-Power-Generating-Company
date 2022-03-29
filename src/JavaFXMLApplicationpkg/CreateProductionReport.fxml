@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="396.0" prefWidth="559.0" style="-fx-background-color: #ff4081;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="JavaFXMLApplicationpkg.CreateProductionReportController">
+   <children>
+      <TextField layoutX="196.0" layoutY="56.0" prefHeight="25.0" prefWidth="151.0" promptText="Like: 200 Mw">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <Label layoutX="43.0" layoutY="57.0" prefHeight="25.0" prefWidth="151.0" text="Total Production :" textFill="#fffcfc">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="101.0" prefHeight="25.0" prefWidth="151.0" text="Production Target :" textFill="#fffcfc">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="147.0" prefHeight="25.0" prefWidth="151.0" text="Target Dfference :" textFill="#fffcfc">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="185.0" prefHeight="25.0" prefWidth="151.0" text="Production Cost :" textFill="#fffcfc">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="231.0" prefHeight="25.0" prefWidth="159.0" text="Unexpected Expenses :" textFill="#fffcfc">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="273.0" prefHeight="25.0" prefWidth="159.0" text="Production Difficulties :" textFill="#fffcfc">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="196.0" layoutY="100.0" prefHeight="25.0" prefWidth="151.0" promptText="Like: 280 Mw">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="196.0" layoutY="146.0" prefHeight="25.0" prefWidth="151.0" promptText="Like: 80 Mw">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="196.0" layoutY="184.0" prefHeight="25.0" prefWidth="151.0" promptText="0.0000 $">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="198.0" layoutY="230.0" prefHeight="25.0" prefWidth="151.0" promptText="0.0000 $">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <CheckBox fx:id="TecnicalIssue" layoutX="198.0" layoutY="276.0" mnemonicParsing="false" onAction="#Select" text="Technical issue" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="SupplyChainIssue" layoutX="323.0" layoutY="276.0" mnemonicParsing="false" onAction="#Select" text="Supply Chain Issue" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </CheckBox>
+      <Button fx:id="Save" layoutX="392.0" layoutY="346.0" mnemonicParsing="false" onAction="#SaveButtonOnClick" prefHeight="25.0" prefWidth="85.0" style="-fx-background-radius: 50;" text="Save">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Back" layoutX="23.0" layoutY="346.0" mnemonicParsing="false" onAction="#BackButtonOnClick" prefHeight="25.0" prefWidth="85.0" style="-fx-background-radius: 50;" text="Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <CheckBox fx:id="ShortageofEquipment" layoutX="198.0" layoutY="305.0" mnemonicParsing="false" onAction="#ShortageofEquipment" text="Shortage of Equipment" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="EnvironmentalConcerns" layoutX="373.0" layoutY="305.0" mnemonicParsing="false" onAction="#Select" prefHeight="19.0" prefWidth="173.0" text="Environmental Concerns" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </CheckBox>
+   </children>
+</AnchorPane>

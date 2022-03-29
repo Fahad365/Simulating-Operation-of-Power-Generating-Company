@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="513.0" style="-fx-border-color: #ff4081; -fx-border-width: 7;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFXMLApplicationpkg.SupervisorHomePageController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="16.0" prefHeight="369.0" prefWidth="257.0" style="-fx-background-color: #ff4081; -fx-background-radius: 10;">
+         <children>
+            <Button fx:id="CheckAttendanceDetails" layoutX="22.0" layoutY="29.0" mnemonicParsing="false" onAction="#CheckAttendanceDetailsButtonOnClick" prefHeight="40.0" prefWidth="211.0" style="-fx-background-radius: 50;" text="Check Attendance Details">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font></Button>
+            <Button fx:id="SetSchedule" layoutX="22.0" layoutY="94.0" mnemonicParsing="false" onAction="#SetScheduleButtonOnClick" prefHeight="40.0" prefWidth="211.0" style="-fx-background-radius: 50;" text="Set Schedule">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font></Button>
+            <Button fx:id="ProductsInvoiceList" layoutX="23.0" layoutY="157.0" mnemonicParsing="false" onAction="#ProductsInvoiceListButtonOnClick" prefHeight="40.0" prefWidth="211.0" style="-fx-background-radius: 50;" text="Products Invoice List">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font></Button>
+            <Button fx:id="PlaceOrdertoSupplier" layoutX="23.0" layoutY="221.0" mnemonicParsing="false" onAction="#PlaceOrdertoSupplierButtonOnClick" prefHeight="40.0" prefWidth="211.0" style="-fx-background-radius: 50;" text="Place Order to Supplier">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font></Button>
+            <Button fx:id="CreateProductionReport" layoutX="23.0" layoutY="285.0" mnemonicParsing="false" onAction="#CreateProductionReportButtonOnClick" prefHeight="40.0" prefWidth="211.0" style="-fx-background-radius: 50;" text="Create Production Report">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+      <Button fx:id="LogOut" layoutX="320.0" layoutY="313.0" mnemonicParsing="false" onAction="#LogOutButtonOnClick" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #ff4081; -fx-background-radius: 50;" text="LogOut" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

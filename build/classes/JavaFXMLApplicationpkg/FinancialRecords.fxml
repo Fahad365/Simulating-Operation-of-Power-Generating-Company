@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="344.0" prefWidth="494.0" style="-fx-background-color: #ff9800;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="JavaFXMLApplicationpkg.FinancialRecordsController">
+   <children>
+      <Button fx:id="FinancialCost" layoutX="159.0" layoutY="97.0" mnemonicParsing="false" onAction="#FinancialCostButtonOnClick" prefHeight="29.0" prefWidth="159.0" style="-fx-background-radius: 50;" text="Financial Cost">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="FinancialProfit" layoutX="159.0" layoutY="157.0" mnemonicParsing="false" onAction="#FinancialProfitButtonOnClick" prefHeight="29.0" prefWidth="159.0" style="-fx-background-radius: 50;" text="Financial Profit">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="FinancialLose" layoutX="159.0" layoutY="218.0" mnemonicParsing="false" onAction="#FinancialLoseButtonOnClick" prefHeight="29.0" prefWidth="159.0" style="-fx-background-radius: 50;" text="Financial Lose">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Back" layoutX="39.0" layoutY="295.0" mnemonicParsing="false" onAction="#BackButtonOnClick" prefHeight="29.0" prefWidth="71.0" style="-fx-background-radius: 50;" text="&lt; Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="383.0" prefWidth="512.0" style="-fx-background-color: #ff9800;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="JavaFXMLApplicationpkg.ReserveFundsController">
+   <children>
+      <ListView fx:id="ReserveFundsList" layoutX="118.0" layoutY="75.0" prefHeight="200.0" prefWidth="281.0" />
+      <Label layoutX="118.0" layoutY="49.0" prefHeight="20.0" prefWidth="157.0" text="Reserve Funds Details :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="393.0" layoutY="331.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="72.0" style="-fx-background-radius: 50;" text="Edit">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Back" layoutX="29.0" layoutY="331.0" mnemonicParsing="false" onAction="#BackButtonOnClick" prefHeight="29.0" prefWidth="79.0" style="-fx-background-radius: 50;" text="&lt; Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

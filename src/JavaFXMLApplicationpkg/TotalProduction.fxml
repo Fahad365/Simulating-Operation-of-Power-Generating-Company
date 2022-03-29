@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="332.0" prefWidth="484.0" style="-fx-background-color: #9c27b0;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFXMLApplicationpkg.TotalProductionController">
+   <children>
+      <Button fx:id="DailyProduction" layoutX="136.0" layoutY="70.0" mnemonicParsing="false" onAction="#DailyProductionButtonOnClick" prefHeight="31.0" prefWidth="193.0" style="-fx-background-radius: 50;" text="Daily Production">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="WeeklyProduction" layoutX="136.0" layoutY="134.0" mnemonicParsing="false" onAction="#WeeklyProductionButtonOnClick" prefHeight="31.0" prefWidth="193.0" style="-fx-background-radius: 50;" text="Weekly Production">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="MonthlyProduction" layoutX="136.0" layoutY="199.0" mnemonicParsing="false" onAction="#MonthlyProductionButtonOnClick" prefHeight="31.0" prefWidth="193.0" style="-fx-background-radius: 50;" text="Monthly Production">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Back" layoutX="39.0" layoutY="272.0" mnemonicParsing="false" onAction="#BackButtonOnClick" prefHeight="31.0" prefWidth="91.0" style="-fx-background-radius: 50;" text="&lt;Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

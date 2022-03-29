@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="347.0" prefWidth="497.0" style="-fx-background-color: #607d8b;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="JavaFXMLApplicationpkg.CreateHolidayListController">
+   <children>
+      <Button fx:id="SingleDaysHoliday" layoutX="141.0" layoutY="97.0" mnemonicParsing="false" onAction="#SingleDaysHolidayButtonOnClick" prefHeight="25.0" prefWidth="201.0" style="-fx-background-radius: 50;" text="Single Day Holiday">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="MultipleDaysHoliday" layoutX="141.0" layoutY="159.0" mnemonicParsing="false" onAction="#MultipleDaysHolidayButtonOnClick" prefHeight="25.0" prefWidth="201.0" style="-fx-background-radius: 50;" text="Multiple Days Holiday">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="LeaveStatus" layoutX="141.0" layoutY="219.0" mnemonicParsing="false" onAction="#LeaveStatusButtonOnClick" prefHeight="25.0" prefWidth="201.0" style="-fx-background-radius: 50;" text="Leave Status">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Back" layoutX="35.0" layoutY="294.0" mnemonicParsing="false" onAction="#BackButtonOnClick" prefHeight="25.0" prefWidth="65.0" style="-fx-background-radius: 50;" text="&lt; Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

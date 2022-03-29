@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="377.0" prefWidth="484.0" style="-fx-background-color: #607d8b;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="JavaFXMLApplicationpkg.SingleDaysHolidayController">
+   <children>
+      <DatePicker fx:id="Holiday" layoutX="135.0" layoutY="141.0" onAction="#SetDate" prefHeight="25.0" prefWidth="184.0" />
+      <Label layoutX="139.0" layoutY="116.0" prefHeight="25.0" prefWidth="184.0" text="Select a Date From Calendar :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="135.0" layoutY="215.0" prefHeight="25.0" prefWidth="193.0" text="Write Description on Holiday :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="135.0" layoutY="247.0" prefHeight="25.0" prefWidth="184.0" promptText="Write Here">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <Button fx:id="Back" layoutX="36.0" layoutY="320.0" mnemonicParsing="false" onAction="#BackButtonOnClick" prefHeight="25.0" prefWidth="67.0" style="-fx-background-radius: 50;" text="&lt; Back">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="357.0" layoutY="320.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="67.0" style="-fx-background-radius: 50;" text="Save">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

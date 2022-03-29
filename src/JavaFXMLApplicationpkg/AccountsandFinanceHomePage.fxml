@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="386.0" prefWidth="482.0" style="-fx-border-color: #ff9800; -fx-border-width: 7;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="JavaFXMLApplicationpkg.AccountsandFinanceHomePageController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="16.0" prefHeight="353.0" prefWidth="245.0" style="-fx-background-color: #ff9800; -fx-background-radius: 10;">
+         <children>
+            <Button fx:id="SalaryInformation" layoutX="27.0" layoutY="25.0" mnemonicParsing="false" onAction="#SalaryInformationButtonOnClick" prefHeight="35.0" prefWidth="192.0" style="-fx-background-radius: 50;" text="Salary Information">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="FinancialRecords" layoutX="27.0" layoutY="87.0" mnemonicParsing="false" onAction="#FinancialRecordsButtonOnClick" prefHeight="35.0" prefWidth="192.0" style="-fx-background-radius: 50;" text="Financial Records">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="ReserveFunds" layoutX="27.0" layoutY="152.0" mnemonicParsing="false" onAction="#ReserveFundsButtonOnClick" prefHeight="35.0" prefWidth="192.0" style="-fx-background-radius: 50;" text="Reserve Funds">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="Contact" layoutX="27.0" layoutY="219.0" mnemonicParsing="false" onAction="#ContactButtonOnClick" prefHeight="35.0" prefWidth="192.0" style="-fx-background-radius: 50;" text="Contact">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="CreateBudget" layoutX="27.0" layoutY="281.0" mnemonicParsing="false" onAction="#CreateBudgetButtonOnClick" prefHeight="35.0" prefWidth="192.0" style="-fx-background-radius: 50;" text="Create Budget">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button fx:id="LogOut" layoutX="309.0" layoutY="313.0" mnemonicParsing="false" onAction="#LogOutButtonOnClick" prefHeight="35.0" prefWidth="140.0" style="-fx-background-color: #ff9800; -fx-background-radius: 50;" text="LogOut" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

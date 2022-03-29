@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="465.0" style="-fx-background-color: #0091ea;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFXMLApplicationpkg.PickuppointController">
+   <children>
+      <TextField layoutX="62.0" layoutY="144.0" prefHeight="25.0" prefWidth="183.0" promptText="Select Time">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="62.0" layoutY="192.0" prefHeight="25.0" prefWidth="183.0" promptText="Select Location">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="62.0" layoutY="241.0" prefHeight="25.0" prefWidth="183.0" promptText="Select Vehicles Number">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="Confirm" layoutX="308.0" layoutY="302.0" mnemonicParsing="false" onAction="#ConfirmButtonOnClick" prefHeight="37.0" prefWidth="129.0" style="-fx-background-radius: 50;" text="Confirm">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Back" layoutX="62.0" layoutY="302.0" mnemonicParsing="false" onAction="#BackOnClick" prefHeight="37.0" prefWidth="129.0" style="-fx-background-radius: 50;" text="Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <DatePicker layoutX="62.0" layoutY="89.0" prefHeight="29.0" prefWidth="183.0" promptText="Select a Date" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="366.0" prefWidth="458.0" style="-fx-background-color: #0091ea;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFXMLApplicationpkg.DeliverypointController">
+   <children>
+      <TextField layoutX="127.0" layoutY="218.0" prefHeight="29.0" prefWidth="175.0" promptText="Set Location">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="127.0" layoutY="160.0" prefHeight="29.0" prefWidth="175.0" promptText="Set Time">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Button layoutX="262.0" layoutY="283.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="138.0" style="-fx-background-radius: 50;" text="Confirm">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Back" layoutX="40.0" layoutY="283.0" mnemonicParsing="false" onAction="#BackButtonOnClick" prefHeight="29.0" prefWidth="103.0" style="-fx-background-radius: 50;" text="&lt;&lt;Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <DatePicker layoutX="127.0" layoutY="104.0" promptText="Select a Date" />
+   </children>
+</AnchorPane>
